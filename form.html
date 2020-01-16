@@ -11,7 +11,50 @@
 </head>
 <body>
 <!-- create a form to fill out and button that generates the questions-->
+<div>
+    <form action="/quize.html">
+        <label for="questions">Number of Questions:</label>
+        <select id="questions" name="Questions">
+            <option disabled selected>Select an Option</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+        </select><br>
 
+<!--not sure what you want the categories to be you can add-->
+        <label for="category">Category:</label>
+        <select id="category" name="Category">
+            <option disabled selected>Select an Option</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty" name="Difficulty">
+            <option disabled selected>Select an Option</option>
+            <option value="VEZ">Very Easy</option>
+            <option value="EZ">Easy</option>
+            <option value="MED">Medium</option>
+            <option value="HARD">Hard</option>
+            <option value="EX">Extreme</option>
+        </select>
+
+        <label for="type">Difficulty:</label>
+        <select id="type" name="Type">
+            <option disabled selected>Select an Option</option>
+            <option value="MC">Multiple Choice</option>
+            <option value="TF">True / False</option>
+        </select>
+
+    <input type="submit" value="Generate"><br>
+    </form>
+
+</div>
 <!--javascript link-->
 <script src="./js/main.js"></script>
 </body>
