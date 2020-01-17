@@ -11,10 +11,10 @@
 </head>
 <body>
 <!-- create a form to fill out and button that generates the questions-->
-<div>
+<div class="select-container">
     <form action="/quize.html">
-        <label for="questions">Number of Questions:</label>
-        <select id="questions" name="Questions">
+        <label for="questions">Number of Questions:</label><br>
+        <select class="main-select" id="questions" name="Questions">
             <option disabled selected>Select an Option</option>
             <option value="5">5</option>
             <option value="10">10</option>
@@ -24,34 +24,34 @@
         </select><br>
 
 <!--not sure what you want the categories to be you can add-->
-        <label for="category">Category:</label>
-        <select id="category" name="Category">
+        <label for="category">Category:</label><br>
+        <select class="main-select" id="category" name="Category">
             <option disabled selected>Select an Option</option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
-        </select>
+        </select><br>
 
-        <label for="difficulty">Difficulty:</label>
-        <select id="difficulty" name="Difficulty">
+        <label for="difficulty">Difficulty:</label><br>
+        <select class="main-select" id="difficulty" name="Difficulty">
             <option disabled selected>Select an Option</option>
             <option value="VEZ">Very Easy</option>
             <option value="EZ">Easy</option>
             <option value="MED">Medium</option>
             <option value="HARD">Hard</option>
             <option value="EX">Extreme</option>
-        </select>
+        </select><br>
 
-        <label for="type">Difficulty:</label>
-        <select id="type" name="Type">
+        <label for="type">Difficulty:</label><br>
+        <select class="main-select" id="type" name="Type">
             <option disabled selected>Select an Option</option>
             <option value="MC">Multiple Choice</option>
             <option value="TF">True / False</option>
-        </select>
+        </select><br>
 
-    <input type="submit" value="Generate"><br>
+    <input class="submit-button" type="submit" value="Generate">
     </form>
 
 </div>

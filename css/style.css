@@ -24,6 +24,31 @@ body {
   position: relative;
   /* -webkit-animation: colors 17s infinite ease-out; */
 }
+.select-container {font-size:20px;
+  font-size: 20px;
+  background-color: white;
+  border: 3px solid var(--secondary-color);
+  width: 20%;
+  align-self: center;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.main-select{
+  padding: 1px 40px;
+}
+.submit-button{
+  background-color: var(--dark-color);
+  border: 5px var(--secondary-color);
+  color: white;
+  padding: 5px;
+}
 .join-form {
   display: flex;
   flex-direction: column;
