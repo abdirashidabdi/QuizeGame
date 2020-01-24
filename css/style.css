@@ -24,11 +24,14 @@ body {
   position: relative;
   /* -webkit-animation: colors 17s infinite ease-out; */
 }
-.select-container {font-size:20px;
+.select-container {
+  border-radius: 15px;
+  font-family: "Asap", sans-serif;
   font-size: 20px;
   background-color: white;
-  border: 3px solid var(--secondary-color);
-  width: 20%;
+  border: 2px solid var(--secondary-color);
+  width: 35rem;
+  height: 25rem;
   align-self: center;
   padding: 20px;
   position: absolute;
@@ -40,16 +43,52 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+
+/* form css */
+input[type='number']{
+  padding-left: 10px;
+}
+form{
+  width: 100%;
+  height: 100%;
+  /* background: orange; */
+}
+.select-container form label{
+  font-size: 18px;
+}
+.select-container select option{
+  font-family: "Asap", sans-serif;
+
+}
 .main-select{
-  padding: 1px 40px;
+  outline: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  width: 100%;
+  padding: 10px 0;
+  /* background: red; */
+}
+.main-select, form label{
+  margin-top: 10px;
 }
 .submit-button{
+  width: 100%;
   background-color: var(--dark-color);
   border: 10px;
   border-color: var(--secondary-color);
   color: white;
-  padding: 5px;
+  padding: 12px 0;
+  margin-top: 20px;
+  border-radius: 15px;
+  outline: none;
+  font-size: 15px;
+  font-weight: bolder;
 }
+.submit-button:hover{
+  background: var(--secondary-color);
+  color: var(--dark-color);
+}
+
 .join-form {
   display: flex;
   flex-direction: column;

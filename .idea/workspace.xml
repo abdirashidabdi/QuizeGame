@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de9a580d-4fdc-48f9-81f8-dfd71bc4e1c4" name="Default Changelist" comment="" />
+    <list default="true" id="de9a580d-4fdc-48f9-81f8-dfd71bc4e1c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +59,13 @@
       <workItem from="1579011145675" duration="654000" />
       <workItem from="1579096296573" duration="3274000" />
       <workItem from="1579180736159" duration="4555000" />
+<<<<<<< HEAD
+      <workItem from="1579613611632" duration="73000" />
+=======
       <workItem from="1579270596962" duration="524000" />
       <workItem from="1579615083319" duration="6000" />
       <workItem from="1579869698324" duration="12000" />
-      <workItem from="1579870691401" duration="60000" />
+>>>>>>> e648c38f56185e3afcf169834688683fc66d65c5
     </task>
     <task id="LOCAL-00001" summary="Form and Index baseline page">
       <created>1579182535996</created>
@@ -82,14 +88,7 @@
       <option name="project" value="LOCAL" />
       <updated>1579270642695</updated>
     </task>
-    <task id="LOCAL-00004" summary="class and css update">
-      <created>1579870733662</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1579870733662</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
