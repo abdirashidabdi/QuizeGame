@@ -11,47 +11,56 @@
 </head>
 <body>
 <!-- create a form to fill out and button that generates the questions-->
-<div>
+<div class="select-container">
     <form action="/quize.html">
-        <label for="questions">Number of Questions:</label>
-        <select id="questions" name="Questions">
-            <option disabled selected>Select an Option</option>
-            <option value="5">5</option>
-            <option value="10">10</option>
-            <option value="15">15</option>
-            <option value="20">20</option>
-            <option value="30">30</option>
-        </select><br>
 
-<!--not sure what you want the categories to be you can add-->
+        <label for="questions">Number of Questions:</label>
+        <input class="main-select" type="number"> 
+
         <label for="category">Category:</label>
-        <select id="category" name="Category">
-            <option disabled selected>Select an Option</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+        <select class="main-select" id="questions" name="Questions">
+            <option disabled selected>Any Option</option>
+            <option value="9">General knowledge</option>
+            <option value="10">Entertainment:Books</option>
+            <option value="11">Entertainment:Film</option>
+            <option value="12">Entertainment:Music</option>
+            <option value="13">Entertainment:Musical & Theaters</option>
+            <option value="14">Entertainment:Television</option>
+            <option value="15">Entertainment:Video Games</option>
+            <option value="16">Entertainment:Board Games</option>
+            <option value="17">science :Nature</option>
+            <option value="18">science :Computers</option>
+            <option value="19">Mythology</option>
+            <option value="20">Sport</option>
+            <option value="21">Geography</option>
+            <option value="22">History</option>
+            <option value="23">Politics</option>
+            <option value="24">Art</option>
+            <option value="25">Celebrities</option>
+            <option value="26">Animals</option>
+            <option value="27">vehicles</option>
+            <option value="28">Entertainment:Comics</option>
+            <option value="29">Science:Gadgets</option>
+            <option value="30">Entertainment:japanese Anime & Manga </option>
+            <option value="30">Entertainment:cartoon & Animations </option>
         </select>
 
         <label for="difficulty">Difficulty:</label>
-        <select id="difficulty" name="Difficulty">
-            <option disabled selected>Select an Option</option>
-            <option value="VEZ">Very Easy</option>
+        <select class="main-select" id="difficulty" name="Difficulty">
+            <option disabled selected>Any Option</option>
             <option value="EZ">Easy</option>
             <option value="MED">Medium</option>
             <option value="HARD">Hard</option>
-            <option value="EX">Extreme</option>
         </select>
 
-        <label for="type">Difficulty:</label>
-        <select id="type" name="Type">
-            <option disabled selected>Select an Option</option>
+        <label for="type">Type:</label>
+        <select class="main-select" id="type" name="Type">
+            <option disabled selected>Any Option</option>
             <option value="MC">Multiple Choice</option>
             <option value="TF">True / False</option>
         </select>
 
-    <input type="submit" value="Generate"><br>
+    <input class="submit-button" type="submit" value="Generate">
     </form>
 
 </div>
