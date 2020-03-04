@@ -12,7 +12,7 @@
   --width: 80%;
 }
 body {
-    background: var(--dark-color);
+  background: var(--dark-color);
   /* animation: colors 17s infinite ease-out;
   -webkit-animation: colors 17s infinite ease-out; */
 }
@@ -106,8 +106,6 @@ body {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
 }
-
-
 
 /* ================================
         ANIMATIONS HERE
