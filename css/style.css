@@ -12,7 +12,7 @@
   --width: 80%;
 }
 body {
-    background: var(--dark-color);
+  background: var(--dark-color);
   /* animation: colors 17s infinite ease-out;
   -webkit-animation: colors 17s infinite ease-out; */
 }
@@ -247,8 +247,6 @@ input[type='number']{
   background-color: darkslategray;
   color: var(--light-color)
 }
-
-
 
 /* ================================
         ANIMATIONS HERE
