@@ -1,3 +1,5 @@
+document.querySelector(".join-form").addEventListener("submit", get);
+
 // joinGame class
 class joinGame {
   // Generate random game pin
@@ -18,9 +20,10 @@ class joinGame {
     document.getElementById("pin").innerText = PIN;
     return PIN;
   }
-  static getInputValue(gameInput) {
-    let inputValue = gameInput;
-    joinGame.join(inputValue);
+  static getInputValue() {
+    let inputValue = document.querySelector(".gameInput").value;
+    gameInput = joinGame.getInputValue(inputValue);
+    // joinGame.join(inputValue);
     return inputValue;
   }
 
@@ -43,11 +46,8 @@ class joinGame {
 }
 
 // addEventLister to the form
-document
-  .querySelector(".join-form")
-  .addEventListener("submit", joinGame.getInputValue);
-// g = joinGame.generatePin();
-// s = joinGame.storePin();
-// r = joinGame.retrievePin();
-// get = joinGame.getInputValue();
-// j = joinGame.join();
+g = joinGame.generatePin();
+s = joinGame.storePin();
+r = joinGame.retrievePin();
+get = joinGame.getInputValue();
+j = joinGame.join();
